@@ -1,0 +1,15 @@
+/*
+ *
+ * ManageUserFields
+ * Плагин для скрытия и переименования полей веб-пользователей в админ-панели MODX Evo
+ * 
+ * @category    plugin
+ * @version     0.1
+ * @author      Akool
+ * @internal    @properties &hideFields=Скрываем;text; &renameFields=Переименовываем;text;
+ * @internal    @events OnWUsrFormRender
+ * @internal    @modx_category Manager and Admin
+ * 
+ * Exemple config: &hideFields=Скрываем;text;phone,mobilephone,zip,country,dob,gender &renameFields=Переименовываем;textarea;state||Регион:,comment||Контакты:
+ *
+ */
